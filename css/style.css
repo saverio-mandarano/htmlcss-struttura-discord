@@ -44,31 +44,34 @@ header {
   max-width: 80%;
   width: 1000px;
   height: 40px;
-  margin: 0 auto;
   background-color: rgb(218, 165, 32);
 }
 
+/* qui va trovato il modo di far andare piu a sinistra logo */
 .navbar-logo {
   border: dashed black 2px;
-  padding: 10px;
+  padding: 10px 0;
+  width: 200px;
 }
 
 .navbar-link {
   display: flex;
   justify-content: center;
   border: dashed black 2px;
-  padding: 10px;
+  padding: 10px 0;
   gap: 10px;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
 .navbar-login {
+  text-align: right;
   border: dashed black 2px;
-  padding: 10px;
+  padding: 10px 0;
+  width: 200px;
 }
 
-/*HERO*/
+/**/
 
 .hello-wrapper {
   display: flex;
