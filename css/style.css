@@ -92,3 +92,7 @@ header {
 .bg-azzurro {
   background-color: rgb(30, 144, 255);
 }
+
+.bg-grey {
+  background-color: rgb(211, 211, 211);
+}
