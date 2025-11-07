@@ -6,27 +6,6 @@
   box-sizing: border-box;
 }
 
-/*  
--header
-    -navbar-wrapper
-        -navbar-logo
-        -navbar-link-section
-            -link item1
-            -link item2
-        -navbar-login-section
-
--hello section
-    -hello section content
-        -hello section title
-        -hello section description
-        -hello section actions
-            actions download
-            actions open browser
-
-*/
-
-/* Generals */
-
 /*header*/
 
 header {
@@ -47,10 +26,9 @@ header {
   background-color: rgb(218, 165, 32);
 }
 
-/* qui va trovato il modo di far andare piu a sinistra logo */
 .navbar-logo {
   border: dashed black 2px;
-  padding: 10px 0;
+  padding: 10px;
   width: 200px;
 }
 
@@ -58,7 +36,7 @@ header {
   display: flex;
   justify-content: center;
   border: dashed black 2px;
-  padding: 10px 0;
+  padding: 10px;
   gap: 10px;
   flex-grow: 1;
   flex-shrink: 1;
@@ -67,12 +45,10 @@ header {
 .navbar-login {
   text-align: right;
   border: dashed black 2px;
-  padding: 10px 0;
+  padding: 10px;
   width: 200px;
 }
-
-/**/
-
+/* hello */
 .hello-wrapper {
   display: flex;
   justify-content: center;
