@@ -67,6 +67,15 @@ header {
   height: 80%;
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed black 2px;
+  width: 50%;
+  height: 100%;
+}
+
 /* bg-color */
 .bg-blue {
   background-color: rgb(0, 0, 139);
@@ -74,4 +83,12 @@ header {
 
 .bg-pink {
   background-color: rgb(238, 130, 238);
+}
+
+.bg-rosa-scuro {
+  background-color: rgb(255, 192, 203);
+}
+
+.bg-azzurro {
+  background-color: rgb(30, 144, 255);
 }
