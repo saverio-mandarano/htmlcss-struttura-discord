@@ -31,25 +31,43 @@
 
 header {
   background-color: rgb(173, 216, 230);
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   border: dashed black 2px;
+  max-width: 80%;
+  width: 1000px;
+  height: 50px;
+  padding: 10px;
+  background-color: rgb(218, 165, 32);
 }
 
 .navbar-logo {
-  background-color: rgb(218, 165, 32);
+  border: dashed black 2px;
 }
 
 .navbar-link {
   display: flex;
   justify-content: center;
+  border: dashed black 2px;
+
   /* gap:20px; */
-  background-color: rgb(218, 165, 32);
 }
 
 .navbar-login {
-  background-color: rgb(218, 165, 32);
+  border: dashed black 2px;
+}
+
+/*HERO*/
+
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
 }
