@@ -70,10 +70,10 @@ header {
 
 /*HERO*/
 
-.hero-wrapper {
+.hello-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.hero-box {
+.hello-box {
 }
