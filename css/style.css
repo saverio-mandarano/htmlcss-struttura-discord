@@ -1,0 +1,55 @@
+/*Reset CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  
+-header
+    -navbar-wrapper
+        -navbar-logo
+        -navbar-link-section
+            -link item1
+            -link item2
+        -navbar-login-section
+
+-hello section
+    -hello section content
+        -hello section title
+        -hello section description
+        -hello section actions
+            actions download
+            actions open browser
+
+*/
+
+/* Generals */
+
+/*header*/
+
+header {
+  background-color: rgb(173, 216, 230);
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: center;
+  border: dashed black 2px;
+}
+
+.navbar-logo {
+  background-color: rgb(218, 165, 32);
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: center;
+  /* gap:20px; */
+  background-color: rgb(218, 165, 32);
+}
+
+.navbar-login {
+  background-color: rgb(218, 165, 32);
+}
