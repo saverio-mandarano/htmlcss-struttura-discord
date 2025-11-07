@@ -67,6 +67,16 @@ header {
   height: 80%;
 }
 
+.hello-box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed black 2px;
+  width: 50%;
+  height: 95%;
+  margin: 0 0 20px 0;
+}
+
 .hello-wrapper.double {
   display: flex;
   justify-content: center;
@@ -76,13 +86,27 @@ header {
   height: 1000px;
 }
 
-.box {
+.hello-box .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: dashed black 2px;
   width: 50%;
   height: 100%;
+}
+
+.hello-box-2 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.brd-white {
+  border: dashed white 2px;
+}
+
+.brd-black {
+  border: dashed black 2px;
 }
 
 /* flex */
